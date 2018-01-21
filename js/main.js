@@ -1,24 +1,3 @@
-/*
-* MOON - Absolute Coming Soon Template
-* Release Date: June 2017
-* Last Update: June 2017
-* Author: Madeon08
-* Copyright (C) 2017 Madeon08
-* This is a premium product available exclusively here : http://themeforest.net/user/Madeon08/portfolio
-*/
-
-/*  TABLE OF CONTENTS
-    ---------------------------
-    1. Loading / Opening
-    2. Contact form functions
-    3. Fullpage
-    4. Newsletter
-*/
-
-/* ------------------------------------- */
-/* 1. Loading / Opening ................ */
-/* ------------------------------------- */
-
 $(window).load(function() {
     "use strict";
     setTimeout(function() {
@@ -29,10 +8,6 @@ $(window).load(function() {
         $("#loading").remove();
     }, 2210);
 });
-
-/* ------------------------------------- */
-/* 2. Basic functions .................. */
-/* ------------------------------------- */
 
 function selectedfield() {
     var a = document.getElementById("reason");
@@ -46,12 +21,9 @@ $(".form-control").on("focusin focusout", function() {
 $(document).ready(function() {
     "use strict";
 
-    /* ------------------------------------- */
-    /* 3. Fullpage ......................... */
-    /* ------------------------------------- */
 
     $("#fullpage").fullpage({
-        anchors: "123".split(""),
+        anchors: "1234".split(""),
         navigationTooltips: "Home What About Contact".split(" "),
         showActiveTooltip: !1,
         menu: "#menu",
@@ -60,9 +32,6 @@ $(document).ready(function() {
         responsiveWidth: 992
     });
 
-    /* ------------------------------------- */
-    /* 7. Newsletter ....................... */
-    /* ------------------------------------- */
 
-    $("#notifyMe").notifyMe();
+
 });
